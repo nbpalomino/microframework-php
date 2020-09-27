@@ -1,0 +1,25 @@
+{
+    "name": "core42/backoffice",
+    "description": "Backoffice for CORE42's site",
+    "type": "project",
+    "require": {
+        "symfony/http-foundation": "^5.1",
+        "nikic/fast-route": "^1.3",
+        "pimple/pimple": "^3.3",
+        "filp/whoops": "^2.7",
+        "vlucas/phpdotenv": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core42\\": "app/"
+        }
+    },
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Nick Palomino",
+            "email": "nbpalomino@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
